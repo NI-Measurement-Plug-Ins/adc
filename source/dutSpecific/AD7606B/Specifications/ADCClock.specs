@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Specifications xmlns:f="http://www.ni.com/schemas/Semiconductor/Formula.xsd" schemaVersion="1.0" xmlns="http://www.ni.com/schemas/Semiconductor/Specifications.xsd">
+  <Section name="f">
+    <f:Formula symbol="Convert1">
+      <f:Definition>500 kHz</f:Definition>
+      <f:Comment>frequency of ADC sampling</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="T">
+    <f:Formula symbol="Convert1">
+      <f:Definition>1/f.Convert1</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="RD1">
+      <f:Definition>40 ns</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="DutyCycle1">
+      <f:Definition>0.5</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="Read">
+      <f:Definition>30 ns</f:Definition>
+    </f:Formula>
+  </Section>
+</Specifications>
