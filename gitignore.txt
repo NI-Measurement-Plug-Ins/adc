@@ -1,0 +1,15 @@
+# LabVIEW project temporary files.
+*.aliases
+*.lvlps
+
+#LabVIEW builds
+[Bb]uild/
+[Bb]uilds/
+
+#InstrumentStudio
+*.[Cc]ache/
+
+#Package builder
+[Pp]ackages/
+ProcessingStage/
+package/log-adc-measurements.txt
