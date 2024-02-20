@@ -8,7 +8,8 @@ image.png
 
 Click Manual Layout, and select AC measurement service in the large panel. Click OK.
 
-image.png
+![image.png](/.attachments/image-3a35e08b-0561-436c-8e84-eb3687465c7c.png =850x500)
+
 
 AC measurement UI will get displayed on a large panel as below screenshot.
 
