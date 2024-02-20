@@ -465,51 +465,72 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="dcvm_acMultiChannelMeasurement" Type="EXE">
+			<Item Name="ADC -  AC Multi Channel Measurement UI" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{C5A52A27-D8B8-4763-BA7B-3D761D31360F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ADC -  AC Multi Channel Measurement UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC -  AC Multi Channel Measurement UI</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B3484784-0C21-47D2-A6DF-14010C502BC6}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC -  AC Multi Channel Measurement UI</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC -  AC Multi Channel Measurement UI/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73762CE8-4942-47F6-B223-3903E33AA790}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adc_acMultiChannelMeasurementUI.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+			<Item Name="ADC - AC Multi Channel Measurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{56823E70-0B4E-44AD-8700-23903B3E5961}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B74E34A8-46BF-4B61-9F29-AD29CD2F551B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3CA74630-3762-4531-B7C8-5216BAD6EA49}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">dcvm_acMultiChannelMeasurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ADC - AC Multi Channel Measurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_acMultiChannelMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">dcvm_acMultiChannelMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/dcvm_acMultiChannelMeasurement.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].destName" Type="Str">adc_acMultiChannelMeasurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">FPGA Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/data/shared/FPGABitFiles</Property>
-				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/shared/FPGABitFiles</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">Levels Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/data/dutSpecific/AD7606B/Levels</Property>
-				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/dutSpecific/AD7606B/Levels</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[4].destName" Type="Str">Patterns Directory</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/data/dutSpecific/AD7606B/Patterns</Property>
-				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/dutSpecific/AD7606B/Patterns</Property>
+				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[5].destName" Type="Str">PinMap Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../builds/data/dutSpecific/AD7606B/PinMap</Property>
-				<Property Name="Destination[5].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/dutSpecific/AD7606B/PinMap</Property>
+				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[6].destName" Type="Str">Specifications Directory</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/data/dutSpecific/AD7606B/Specifications</Property>
-				<Property Name="Destination[6].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/dutSpecific/AD7606B/Specifications</Property>
+				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[7].destName" Type="Str">Timing Directory</Property>
-				<Property Name="Destination[7].path" Type="Path">../builds/data/dutSpecific/AD7606B/Timing</Property>
-				<Property Name="Destination[7].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[7].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - AC Multi Channel Measurement/data/dutSpecific/AD7606B/Timing</Property>
+				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73344AB2-8DDD-4D3C-B251-93B2FF267105}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73762CE8-4942-47F6-B223-3903E33AA790}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -598,36 +619,13 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">dcvm_acMultiChannelMeasurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">dcvm_acMultiChannelMeasurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ADC - AC Multi Channel Measurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">ADC - AC Multi Channel Measurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">dcvm_acMultiChannelMeasurement</Property>
+				<Property Name="TgtF_productName" Type="Str">ADC - AC Multi Channel Measurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EBFECD24-E525-4E29-9E29-DF50CFA930CA}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">dcvm_acMultiChannelMeasurement.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">adc_acMultiChannelMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="dcvm_acMultiChannelMeasurementUI" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{C5A52A27-D8B8-4763-BA7B-3D761D31360F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">dcvm_acMultiChannelMeasurementUI</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/dcvm_acMultiChannelMeasurementUI</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B3484784-0C21-47D2-A6DF-14010C502BC6}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/dcvm_acMultiChannelMeasurementUI</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/dcvm_acMultiChannelMeasurementUI/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73344AB2-8DDD-4D3C-B251-93B2FF267105}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adc_acMultiChannelMeasurementUI.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -471,33 +471,32 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="adc_linearityMeasurement" Type="EXE">
+			<Item Name="ADC - Linearity Measurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{254EB6DE-6BF0-472C-BB53-DA10D3FBEEB6}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8D24B37D-BB20-4D2B-B8AF-9337755027A9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C3A3CC92-8CD6-441C-A85C-ABB19A453A84}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">adc_linearityMeasurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ADC - Linearity Measurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Linearity Measurement</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_linearityMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F86E4738-7F63-4AFE-8E69-E7AC17B5786A}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adc_linearityMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Linearity Measurement/ADC - Linearity Measurement.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Linearity Measurement/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9721FD60-9113-47AF-B165-BE5170DA1B1C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F229066D-D7A8-4869-866C-5C7EF3DAC36F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adc_linearityMeasurement.lvlib/Get Measurement Details.vi</Property>
@@ -532,10 +531,10 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">adc_linearityMeasurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">adc_linearityMeasurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ADC - Linearity Measurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">ADC - Linearity Measurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">adc_linearityMeasurement</Property>
+				<Property Name="TgtF_productName" Type="Str">ADC - Linearity Measurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{017C810F-65FF-4346-A337-6A81B97596E7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">adc_linearityMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
