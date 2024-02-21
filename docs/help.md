@@ -4,11 +4,12 @@
 Setting up the InstrumentStudio Panels
 Open InstrumentStudio
 
-image.png
+![image](https://github.com/NI-MeasurementLink-Plug-Ins/data-converter-validation-module/assets/158176813/94b1d922-3597-4316-8f48-67d88df32163)
+
 
 Click Manual Layout, and select AC measurement service in the large panel. Click OK.
 
-![image.png](/.attachments/image-3a35e08b-0561-436c-8e84-eb3687465c7c.png =850x500)
+
 
 
 AC measurement UI will get displayed on a large panel as below screenshot.
