@@ -119,44 +119,43 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CDD8E95C-D37A-402A-934B-947276FC1DA0}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AD7606B_DPIserver.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/AD7606B_DPIserver.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/AD7606B_DPIserver.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">FPGA Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/data/shared/FPGABitFiles</Property>
-				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/shared/FPGABitFiles</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">PinMap Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/data/dutSpecific/AD7606B/PinMap</Property>
-				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/dutSpecific/AD7606B/PinMap</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[4].destName" Type="Str">Timing Directory</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/data/dutSpecific/AD7606B/Timing</Property>
-				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/dutSpecific/AD7606B/Timing</Property>
+				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[5].destName" Type="Str">Specifications Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../builds/data/dutSpecific/AD7606B/Specifications</Property>
-				<Property Name="Destination[5].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/dutSpecific/AD7606B/Specifications</Property>
+				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[6].destName" Type="Str">Levels Directory</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/data/dutSpecific/AD7606B/Levels</Property>
-				<Property Name="Destination[6].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/dutSpecific/AD7606B/Levels</Property>
+				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[7].destName" Type="Str">Patterns Directory</Property>
-				<Property Name="Destination[7].path" Type="Path">../builds/data/dutSpecific/AD7606B/Patterns</Property>
-				<Property Name="Destination[7].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[7].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/data/dutSpecific/AD7606B/Patterns</Property>
+				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[8].destName" Type="Str">Libraries</Property>
-				<Property Name="Destination[8].path" Type="Path">../builds/Libraries</Property>
-				<Property Name="Destination[8].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[8].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Digital Server/Libraries</Property>
+				<Property Name="Destination[8].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">9</Property>
-				<Property Name="Source[0].itemID" Type="Str">{824A51FD-36A5-4911-A40B-9E4539022C97}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46AD8AAC-A308-4E5B-A7D8-6EB9C79E28C8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
