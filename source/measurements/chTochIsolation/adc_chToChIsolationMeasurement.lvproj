@@ -493,32 +493,32 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ADC - Ch To Ch Isolation Measurement" Type="EXE">
+			<Item Name="adc_chToChIsolationMeasurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{56823E70-0B4E-44AD-8700-23903B3E5961}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B74E34A8-46BF-4B61-9F29-AD29CD2F551B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3CA74630-3762-4531-B7C8-5216BAD6EA49}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ADC - Ch To Ch Isolation Measurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adc_chToChIsolationMeasurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Ch To Ch Isolation Measurement</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Channel To Channel Isolation Measurement</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_chToChIsolationMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adc_chToChIsolationMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Ch To Ch Isolation Measurement/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Channel To Channel Isolation Measurement/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Ch To Ch Isolation Measurement/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Channel To Channel Isolation Measurement/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{612DC41E-D7BD-48E3-957F-477226436F19}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4099024A-6461-4F83-9DF6-27691CC16202}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -562,10 +562,10 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/adc_chToChIsolationMeasurement.lvlib/subVIs</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ADC - Ch To Ch Isolation Measurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">ADC - Ch To Ch Isolation Measurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adc_chToChIsolationMeasurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">adc_chToChIsolationMeasurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">ADC - Ch To Ch Isolation Measurement</Property>
+				<Property Name="TgtF_productName" Type="Str">adc_chToChIsolationMeasurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EBFECD24-E525-4E29-9E29-DF50CFA930CA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">adc_chToChIsolationMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>

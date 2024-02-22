@@ -500,40 +500,40 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_fullScaleError.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87DDD5BC-817E-4384-B6B0-A0E067670D27}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adc_fullScaleErrorMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/adc_fullScaleErrorMeasurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/adc_fullScaleErrorMeasurement.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">FPGA Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/shared/FPGABitFiles</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/shared/FPGABitFiles</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">Levels Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/dutSpecific/AD7606B/Levels</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/dutSpecific/AD7606B/Levels</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[4].destName" Type="Str">Patterns Directory</Property>
-				<Property Name="Destination[4].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/dutSpecific/AD7606B/Patterns</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/dutSpecific/AD7606B/Patterns</Property>
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[5].destName" Type="Str">PinMap</Property>
-				<Property Name="Destination[5].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/dutSpecific/AD7606B/PinMap</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/dutSpecific/AD7606B/PinMap</Property>
 				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[6].destName" Type="Str">Specifications Directory</Property>
-				<Property Name="Destination[6].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/dutSpecific/AD7606B/Specifications</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/dutSpecific/AD7606B/Specifications</Property>
 				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[7].destName" Type="Str">Timing Directory</Property>
-				<Property Name="Destination[7].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Full Scale Error/data/dutSpecific/AD7606B/Timing</Property>
+				<Property Name="Destination[7].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Full Scale Error Measurement/data/dutSpecific/AD7606B/Timing</Property>
 				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FF3DC7FF-B139-4BAD-9228-57C2DE4B9B8B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D678276E-C072-4A05-8E16-C7B0ACFFC875}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adc_fullScaleError.lvlib/Get Measurement Details.vi</Property>

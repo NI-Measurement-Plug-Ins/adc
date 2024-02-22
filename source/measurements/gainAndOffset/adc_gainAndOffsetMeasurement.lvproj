@@ -481,7 +481,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ADC - Gain And Offset Measurement" Type="EXE">
+			<Item Name="adc_gainAndOffsetMeasurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{BE062619-15CA-4BC6-9510-3B8306AE1164}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B717DC08-D265-4F9A-ADE9-89929C5B9813}</Property>
@@ -489,26 +489,26 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DBCFD012-1426-454A-894F-1E4958DC7F3D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ADC - Gain And Offset Measurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adc_gainAndOffsetMeasurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Gain And Offset Measurement</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Gain And Offset Measurement</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_gainAndOffsetMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{259BA380-3D15-47DA-883B-08231456A8EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">adc_gainAndOffsetMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Gain And Offset Measurement/ADC - Gain And Offset Measurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Gain And Offset Measurement/ADC - Gain And Offset Measurement.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/ADC - Gain And Offset Measurement/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/Documents/GitHub/data-converter-validation-module/builds/Gain And Offset Measurement/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{02C59873-439B-46F9-B854-671528BAA168}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7638846-65DF-4719-95C4-2154974B23DE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/adc_gainAndOffsetMeasurement.lvlib/Run Service.vi</Property>
@@ -543,10 +543,10 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ADC - Gain And Offset Measurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">ADC - Gain And Offset Measurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adc_gainAndOffsetMeasurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">adc_gainAndOffsetMeasurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">ADC - Gain And Offset Measurement</Property>
+				<Property Name="TgtF_productName" Type="Str">adc_gainAndOffsetMeasurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D2F2E54A-6724-4B31-9E61-E6B61D20701C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">adc_gainAndOffsetMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
