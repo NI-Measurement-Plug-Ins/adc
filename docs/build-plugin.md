@@ -31,25 +31,25 @@ Note: Please note that the /build folder must not be committed to repo and will 
 
 1. Open the adc-measurements.pbs NI package build spec in "data-converter-validation-module\package"
     
-    ![alt text](images/dcvm_ni_package.png)
+    ![alt text](images/dcvm_ni_package.PNG)
 
 2. Ensure the destination for the package installation is set to the below location:
     "C:\ProgramData\National Instruments\MeasurementLink\Services"
 
-    ![alt text](images/dcvm_ni_package.png)
+    ![alt text](images/dcvm_ni_package.PNG)
 
 3. Click on 'Build Solution'.
 
-    ![alt text](images/build_specc.png)
+    ![alt text](images/build_specc.PNG)
 
 4. Once the build process is completed, the package build files and processing folder created in the package folder.
     
    
-    ![alt text](images/package file.png)
+    ![alt text](images/package file.PNG)
 
 5. Select the package file "data-converter-validation-module_1.0.0.0_windows_x64" to install the dcvm build into the machine.
 
-    ![alt text](images/install_package.png)
+    ![alt text](images/install_package.PNG)
 
     
 Note: Please note that the built NIPM packages must not be committed to repo. The folders created upon building NI PKG (Packages, ProcessingStage) will be ignored by .gitignore upon commit.
