@@ -10,18 +10,13 @@ Data Converter Validation Module application is developed in LabVIEW 2021 SP1. I
     - Full-Scale Error Measurement
     - Channel To Channel Isolation Measurement
 
-## Hardware Setup
-![Hardware setup](docs/images/hw-setup.png)
-Instrumentation:
-- NI Dynamic Signal Acquisition device (NI 446x)
-- NI 7820/21 
-- SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
-
-Tested hardware setup:
-- NI 4468
+-
+## Tested hardware setup:
+- NI 446x
 - NI 657x
 - NI 4139
 - AD7606B evaluation board
+- SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
 ## Software dependencies:
 - LabVIEW 64-bit 2021.0 SP1
