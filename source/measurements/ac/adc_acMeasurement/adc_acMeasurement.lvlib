@@ -14,9 +14,9 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="DSG Generate Waveform.vi" Type="VI" URL="../subVIs/DSG Generate Waveform.vi"/>
-		<Item Name="Perform AC Measurements.vi" Type="VI" URL="../subVIs/Perform AC Measurements.vi"/>
-		<Item Name="Perform measurements.vi" Type="VI" URL="../subVIs/Perform measurements.vi"/>
+		<Item Name="DSG Generate Waveform.vi" Type="VI" URL="../subVis/DSG Generate Waveform.vi"/>
+		<Item Name="Perform AC Measurements.vi" Type="VI" URL="../subVis/Perform AC Measurements.vi"/>
+		<Item Name="Perform measurements.vi" Type="VI" URL="../subVis/Perform measurements.vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
