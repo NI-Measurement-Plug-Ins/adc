@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.5">
+	<Instruments>
+		<NIDigitalPatternInstrument name="PBD6571" numberOfChannels="32" group="Digital" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="CONVST" />
+		<DUTPin name="SCLK" />
+		<DUTPin name="REFSEL" />
+		<DUTPin name="STBY" />
+		<DUTPin name="WR" />
+		<DUTPin name="RANGE" />
+		<DUTPin name="SERPAR" />
+		<DUTPin name="CS" />
+		<DUTPin name="BUSY" />
+		<DUTPin name="FRSTDATA" />
+		<DUTPin name="DOUTA" />
+		<DUTPin name="RESET" />
+		<DUTPin name="DB0" />
+		<DUTPin name="DB1" />
+		<DUTPin name="DB2" />
+		<DUTPin name="DB3" />
+		<DUTPin name="DB4" />
+		<DUTPin name="DB5" />
+		<DUTPin name="DB6" />
+		<DUTPin name="DB7" />
+		<DUTPin name="DB8" />
+		<DUTPin name="DB9" />
+		<DUTPin name="DB10" />
+		<DUTPin name="DB11" />
+		<DUTPin name="DB12" />
+		<DUTPin name="DB13" />
+		<DUTPin name="DB14" />
+		<DUTPin name="DB15" />
+		<DUTPin name="OS0" />
+		<DUTPin name="OS1" />
+		<DUTPin name="OS2" />
+		<DUTPin name="OutputRate" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="AllPins">
+			<PinReference pin="CONVST" />
+			<PinReference pin="SCLK" />
+			<PinReference pin="CS" />
+			<PinReference pin="BUSY" />
+			<PinReference pin="FRSTDATA" />
+			<PinReference pin="DOUTA" />
+			<PinReference pin="RESET" />
+			<PinReference pin="DB0" />
+			<PinReference pin="DB1" />
+			<PinReference pin="DB2" />
+			<PinReference pin="DB3" />
+			<PinReference pin="DB4" />
+			<PinReference pin="DB5" />
+			<PinReference pin="DB6" />
+			<PinReference pin="DB7" />
+			<PinReference pin="DB8" />
+			<PinReference pin="DB9" />
+			<PinReference pin="DB10" />
+			<PinReference pin="DB11" />
+			<PinReference pin="DB12" />
+			<PinReference pin="DB13" />
+			<PinReference pin="DB14" />
+			<PinReference pin="DB15" />
+			<PinReference pin="REFSEL" />
+			<PinReference pin="STBY" />
+			<PinReference pin="WR" />
+			<PinReference pin="RANGE" />
+			<PinReference pin="SERPAR" />
+			<PinReference pin="OS0" />
+			<PinReference pin="OS1" />
+			<PinReference pin="OS2" />
+			<PinReference pin="OutputRate" />
+		</PinGroup>
+		<PinGroup name="DataPins">
+			<PinReference pin="DOUTA" />
+		</PinGroup>
+		<PinGroup name="SPIPins">
+			<PinReference pin="SCLK" />
+			<PinReference pin="CS" />
+			<PinReference pin="DOUTA" />
+		</PinGroup>
+		<PinGroup name="ParallelData">
+			<PinReference pin="DB15" />
+			<PinReference pin="DB14" />
+			<PinReference pin="DB13" />
+			<PinReference pin="DB12" />
+			<PinReference pin="DB11" />
+			<PinReference pin="DB10" />
+			<PinReference pin="DB9" />
+			<PinReference pin="DB8" />
+			<PinReference pin="DB7" />
+			<PinReference pin="DB6" />
+			<PinReference pin="DB5" />
+			<PinReference pin="DB4" />
+			<PinReference pin="DB3" />
+			<PinReference pin="DB2" />
+			<PinReference pin="DB1" />
+			<PinReference pin="DB0" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="CONVST" siteNumber="0" instrument="PBD6571" channel="1" />
+		<Connection pin="SCLK" siteNumber="0" instrument="PBD6571" channel="7" />
+		<Connection pin="CS" siteNumber="0" instrument="PBD6571" channel="9" />
+		<Connection pin="BUSY" siteNumber="0" instrument="PBD6571" channel="11" />
+		<Connection pin="DB0" siteNumber="0" instrument="PBD6571" channel="15" />
+		<Connection pin="DB1" siteNumber="0" instrument="PBD6571" channel="17" />
+		<Connection pin="DB10" siteNumber="0" instrument="PBD6571" channel="30" />
+		<Connection pin="DB11" siteNumber="0" instrument="PBD6571" channel="26" />
+		<Connection pin="DB12" siteNumber="0" instrument="PBD6571" channel="24" />
+		<Connection pin="DB13" siteNumber="0" instrument="PBD6571" channel="22" />
+		<Connection pin="DB14" siteNumber="0" instrument="PBD6571" channel="20" />
+		<Connection pin="DB15" siteNumber="0" instrument="PBD6571" channel="18" />
+		<Connection pin="DB2" siteNumber="0" instrument="PBD6571" channel="19" />
+		<Connection pin="DB3" siteNumber="0" instrument="PBD6571" channel="21" />
+		<Connection pin="DB4" siteNumber="0" instrument="PBD6571" channel="23" />
+		<Connection pin="DB5" siteNumber="0" instrument="PBD6571" channel="25" />
+		<Connection pin="DB6" siteNumber="0" instrument="PBD6571" channel="27" />
+		<Connection pin="DB7" siteNumber="0" instrument="PBD6571" channel="29" />
+		<Connection pin="DB8" siteNumber="0" instrument="PBD6571" channel="31" />
+		<Connection pin="DB9" siteNumber="0" instrument="PBD6571" channel="28" />
+		<Connection pin="FRSTDATA" siteNumber="0" instrument="PBD6571" channel="13" />
+		<Connection pin="DOUTA" siteNumber="0" instrument="PBD6571" channel="14" />
+		<Connection pin="OS0" siteNumber="0" instrument="PBD6571" channel="10" />
+		<Connection pin="OS1" siteNumber="0" instrument="PBD6571" channel="8" />
+		<Connection pin="OS2" siteNumber="0" instrument="PBD6571" channel="6" />
+		<Connection pin="OutputRate" siteNumber="0" instrument="PBD6571" channel="12" />
+		<Connection pin="RANGE" siteNumber="0" instrument="PBD6571" channel="0" />
+		<Connection pin="REFSEL" siteNumber="0" instrument="PBD6571" channel="16" />
+		<Connection pin="RESET" siteNumber="0" instrument="PBD6571" channel="5" />
+		<Connection pin="SERPAR" siteNumber="0" instrument="PBD6571" channel="4" />
+		<Connection pin="STBY" siteNumber="0" instrument="PBD6571" channel="2" />
+		<Connection pin="WR" siteNumber="0" instrument="PBD6571" channel="3" />
+	</Connections>
+</PinMap>

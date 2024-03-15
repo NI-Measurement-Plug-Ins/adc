@@ -1,0 +1,99 @@
+// Interface for NI Data Converter Validation Module measurement service
+
+syntax = "proto3";
+package dcvmDPI;
+
+service dcvmDPI {
+    
+    //Queries the name of the Interface
+    rpc ID (IdRequest) returns (IdResponse);
+
+    //MeasDetails
+    rpc MeasDetails (MeasurementRequest) returns (MeasurementResponse);
+
+    //Opens the NI-Digital device to interface with ADC
+    rpc Initialize (InitializeRequest) returns (InitializeResponse);
+
+    //Configures the NI-Digital properties required to acquire the digital output of the ADC
+    rpc Configure (ConfigureRequest) returns (ConfigureResponse);
+
+    //Initates the digital waveform acquisition from the ADC
+    rpc Initiate (InitiateRequest) returns (InitiateResponse);
+
+    //Acquires the digial waveform from the ADC
+    rpc Acquire (AcquireRequest) returns (AcquireResponse);
+
+    //Close all the instrument sessions created during the Initialize command call
+    rpc Close (CloseRequest) returns (CloseResponse);
+}
+
+
+// Error Data 
+message ErrorResponse {
+    int32 error_number = 1;
+    string error_description = 2;
+}
+
+
+message IdRequest{}
+
+message IdResponse {
+    string name = 1;
+    ErrorResponse error = 2;
+}
+
+
+message MeasurementRequest {
+    string measurement = 1; //Select the Measurement service to be run.
+}
+
+message MeasurementResponse {
+    ErrorResponse error = 1;
+}
+
+
+message InitializeRequest {
+    string device_name = 1; // device name of the instrument(s) interfacing the ADC     
+}
+
+
+message InitializeResponse {
+    ErrorResponse error = 1;
+}
+
+ 
+message ConfigureRequest {
+    uint32 digital_capture_samples = 1; // total number of samples to acquire per channel for the measurement of the ADC
+    double digital_capture_sample_rate = 2; // sampling rate of the NI-Digital device
+    int32 input_channel = 3; // ADC channel used for measurement      
+}
+
+
+message ConfigureResponse {
+    ErrorResponse error = 1;
+}
+
+
+message InitiateRequest {}
+
+message InitiateResponse {
+    ErrorResponse error = 1;
+}
+
+
+message AcquireRequest {
+    uint32 digital_capture_samples = 1; // number of samples to acquire per channel of the ADC for each iteration
+    int32 timeout_ms = 2; // timeout in milliseconds
+}
+
+message AcquireResponse {
+    repeated uint32 digital_waveform = 1;
+    ErrorResponse error = 2;
+}
+
+
+message CloseRequest {}
+
+message CloseResponse {
+    ErrorResponse error = 1;
+}
