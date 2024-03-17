@@ -245,7 +245,6 @@
 				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
 				<Item Name="gRPC-servicer-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Servicer/gRPC-servicer-release.lvlib"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
-				<Item Name="Key.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Key.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
@@ -469,22 +468,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Channel To Channel Isolation_ADC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/adc-labview/builds/Channel To Channel Isolation</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/adc/builds/Channel To Channel Isolation</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_chToChIsolationMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ch To Ch Isolation_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/adc-labview/builds/Channel To Channel Isolation/Ch To Ch Isolation_ADC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/adc/builds/Channel To Channel Isolation/Ch To Ch Isolation_ADC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/adc-labview/builds/Channel To Channel Isolation/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/adc/builds/Channel To Channel Isolation/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{13E8DFD3-FCCA-4B6A-B16F-D933BB2E3D48}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9AFA36C8-DAC1-46FF-96A5-703C496BB592}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>

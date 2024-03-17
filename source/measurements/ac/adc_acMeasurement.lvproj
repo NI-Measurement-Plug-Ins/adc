@@ -481,22 +481,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">AC_ADC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/adc-labview/builds/AC_ADC</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ksaravan/adc/builds/AC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/adc_acMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AC_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/adc-labview/builds/AC_ADC/AC_ADC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ksaravan/adc/builds/AC/AC_ADC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/adc-labview/builds/AC_ADC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ksaravan/adc/builds/AC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9B407456-5552-4C7F-B340-9D8FD35E3DB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{83C7E2BF-25FA-44F0-B456-097551CF2BB8}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
