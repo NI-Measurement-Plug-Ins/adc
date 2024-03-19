@@ -11,8 +11,7 @@ gRPC is a high performance, open-source RPC framework initially developed by Goo
 ### Step 1: Create a Digital Server Project
 1.  Make sure LabVIEW 2021 SP1, or a higher version is installed.
 2.	Download Version 1.0.0.1 LabView gRPC tool dependencies (grpc-labview.zip) from the git repository (link) and extract the zip file for server and client project creation.
-![alt text](images/<gRPC Dependencies.png>)
-![alt text](images/<gRPC Dependencies.png>)
+![alt text](images/gRPC Dependencies.png)
 3.	Launch VI Package Manager, and click on the downloaded files shown below, install in the order given below.
     a. ni_lib_labview_grpc_servicer-1.0.0.1.vip	
     b. ni_lib_labview_grpc_library-1.0.0.1.vip
