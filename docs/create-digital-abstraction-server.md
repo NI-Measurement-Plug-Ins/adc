@@ -7,7 +7,7 @@ The Digital Abstraction Layer (DAL) enhances the Data Converter Validation Modul
 ### gRPC Server-Client Implementation
 The connection between the server and client is established through the gRPC framework, making it flexible and easy for users. With gRPC, DAL ensures smooth communication between client and server applications in a distributed environment, offering a high-performance, open-source RPC solution.
 
-gRPC is a high performance, open-source RPC framework initially developed by Google. The framework is based on a client-server model of remote procedure calls. A client application can directly call methods on a server application as if it was a local object. To learn more about gRPC framework, click here (add proto file location)
+gRPC is a high performance, open-source RPC framework initially developed by Google. The framework is based on a client-server model of remote procedure calls. A client application can directly call methods on a server application as if it was a local object. Proto file for the digital server can be available  [here](source/shared/digitalInterface/protFile/dcvmDigitalInterface.proto).
 ## Steps to create a Digital Server for the DUT Interface:
 ### Step 1: Create a Digital Server Project
 1.  Make sure LabVIEW 2021 SP1, or a higher version is installed.
@@ -117,13 +117,18 @@ For example, in the given example Server project, bit file, pin map file, patter
 
 ## Step 6: Build and Run Digital Server
 1.	Running the Digital server VI: In server project, open the Run Service.vi and run the service that hosts and runs the defined gRPC service. 
-![alt text](images/image-5.png)
+![alt text](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/R%20S.png)
 2.	Building.exe:
-    i.	For creating the .exe for the server project, 
-    ![alt text](images/Digital Server Build Specs.png)
+    i.	For creating the .exe for the server project,
+  	
+    ![alt text](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/Digital%20Server%20Build%20Specs.png)
+  	
     ii.	Once the build is complete, go to the location where EXE is present
-    ![alt text](images/Digital Server Location.png)
+  	
+    ![alt text](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/Digital%20Server%20Location.png)
+  	
     iii.	Run the digital server exe file ‘AD706B_DPIserver.exe’
-    ![alt text](images/image-5.png)
+  	
+    ![alt text](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/R%20S.png)
 ## Step 7: Connect the DCVM plugin to the server and perform measurements
- You can follow the steps to run the adc-dcvm measurements by refering this document.
+ You can follow the steps on how to run the adc-dcvm measurement plugin by refering [this](docs/help.md).
