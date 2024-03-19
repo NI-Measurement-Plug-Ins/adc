@@ -1,6 +1,6 @@
 # ADC Measurements
-Data Converter Validation Module application is developed in LabVIEW 2021 SP1. In this version we are shipping our measurements as measurement services using MeasurementLink.This plug-in makes measurements for 16bit SAR ADC currently added support for the AD7606B ADC. The output of the AD7606B is a digital waveform.
-![image](https://github.com/NI-MeasurementLink-Plug-Ins/data-converter-validation-module/assets/158176813/aff8e19b-9b8e-42eb-bbe3-4552a86206b2)
+This measurement plugin makes the measurements for the ADC's. This measurement plugin was developed in 2021 SP1 LabView. This test generates an Analog signal and then acquires the digital waveform and measures it.   
+![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC%20Measurement.png)
 
 ## Key Features
 - Measurements
@@ -10,26 +10,26 @@ Data Converter Validation Module application is developed in LabVIEW 2021 SP1. I
     - Full-Scale Error Measurement
     - Channel To Channel Isolation Measurement
 
--
-## Tested hardware setup:
+## Hardware setup:
 - NI 446x
 - NI 657x
 - NI 4139
 - AD7606B evaluation board
 - SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
+  ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/res/Single%20Tone%20Test%20Setup.png)
+
 ## Software dependencies:
 - LabVIEW 64-bit 2021.0 SP1
 - Sound and Vibration Toolkit support for LabVIEW (21.5 or higher)
 - LabVIEW FPGA development support (22.3 or higher)
-- MeasurementLink 2023 Q4
-- MeasurementLink Support for LabView v1.1.0.3 (https://github.com/ni/measurementlink-labview/releases/tag/v1.1.0.3)
-- LabView gRPC support for LabView v1.0.0.1 (https://github.com/ni/grpc-labview/releases/tag/v1.0.0.1)
+- MeasurementLink 2024 Q1
+- MEasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI Digital driver (22.8 or higher)
 - NI DAQmx driver (22.8 or higher)
 - NI DMM driver (22.8 or higher)
 
-Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community 
+
 
 [comment]: # (add link to documnetation at community level)
 
