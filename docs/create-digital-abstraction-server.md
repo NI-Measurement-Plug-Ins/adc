@@ -1,8 +1,8 @@
 #Creation of Digital Server using gRPC
 ## Digital Abstraction Layer
-The Data Converter Validation Module (DCVM) previously was developed for a specific DUT (AD7606B).  To enable support for different DUTs, a new approach has been devised using the Digital Abstraction Layer (DAL) in Data Converter Validation Module 3.0.  
+The ADC-Data Converter Validation Module (DCVM) previously was developed for a specific DUT (AD7606B).  To enable support for different DUTs, a new approach has been devised using the Digital Abstraction Layer (DAL) in Data Converter Validation Module 3.0.  
 The Digital Abstraction Layer (DAL) enhances the Data Converter Validation Module by introducing abstraction for various Devices Under Test (DUTs), enabling users to extend/implement support for their DUTs. DAL introduces a dynamic solution with user-owned server projects interfacing with specific DUTs and a DCVM-owned client project. 
-![alt text](images/image-1.png)
+![alt text](images/DAL overview.png)
 ### gRPC Server-Client Implementation
 The connection between the server and client is established through the gRPC framework, making it flexible and easy for users. With gRPC, DAL ensures smooth communication between client and server applications in a distributed environment, offering a high-performance, open-source RPC solution.
 
@@ -90,13 +90,18 @@ You could reuse the Server Library, Message Queues, Utility and Data buffer for 
 
     Start Sync.vi can be used from the example server project as such.
     ![alt text](images/startSync.png)
+
 2.	Run Service VI: 
     a.	When you run the Run Service.vi, it starts the gRPC server that hosts and runs the defined gRPC service. The gRPC server is responsible for handling incoming RPC (Remote Procedure Call) requests from clients, invoking the appropriate service methods, and returning the corresponding responses.
 
     In Run Service Block diagram, replace the library class with dcvm_DPI class to run the service to host the server.
     ![alt text](images/runservice.png)
+
+
     b.	In the Run Service VI, make sure to call the ‘Create Message Queues.vi’ first to initialize the Digital Engine and gRPC Engine queues, that will be needed communication between the Process.vi and Start Sync.vi.
+
     ![alt text](images/Run Service vi.png)
+
 ## Step 5: Include dependencies
 Make sure to add any other files that will be required to make the Digital server run with the DUT interface.
 For example, in the given example Server project, bit file, pin map file, pattern file, etc. are required to interface DUT with Digital interface. 
@@ -110,6 +115,6 @@ For example, in the given example Server project, bit file, pin map file, patter
     ii.	Once the build is complete, go to the location where EXE is present
     ![alt text](images/Digital Server Location.png)
     iii.	Run the digital server exe file ‘AD706B_DPIserver.exe’
-    ![alt text](images/image-5-1.png)
+    ![alt text](images/image-5.png)
 ## Step 7: Connect the DCVM plugin to the server and perform measurements
  You can follow the steps to run the adc-dcvm measurements by refering this document.
