@@ -17,7 +17,7 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - AD7606B evaluation board
 - SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
-  ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/res/Single%20Tone%20Test%20Setup.png)
+  ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/res/AC%20Test%20Setup.PNG)
 
 ## Software dependencies:
 - LabVIEW 64-bit 2021.0 SP1
