@@ -2,7 +2,7 @@
 ## Digital Abstraction Layer
 The Data Converter Validation Module (DCVM) previously was developed for a specific DUT (AD7606B).  To enable support for different DUTs, a new approach has been devised using the Digital Abstraction Layer (DAL) in Data Converter Validation Module 3.0.  
 The Digital Abstraction Layer (DAL) enhances the Data Converter Validation Module by introducing abstraction for various Devices Under Test (DUTs), enabling users to extend/implement support for their DUTs. DAL introduces a dynamic solution with user-owned server projects interfacing with specific DUTs and a DCVM-owned client project. 
-![alt text](<DAL overview.png>)
+![alt text](images/<DAL overview.png>)
 ### gRPC Server-Client Implementation
 The connection between the server and client is established through the gRPC framework, making it flexible and easy for users. With gRPC, DAL ensures smooth communication between client and server applications in a distributed environment, offering a high-performance, open-source RPC solution.
 
@@ -11,7 +11,7 @@ gRPC is a high performance, open-source RPC framework initially developed by Goo
 ### Step 1: Create a Digital Server Project
 1.  Make sure LabVIEW 2021 SP1, or a higher version is installed.
 2.	Download Version 1.0.0.1 LabView gRPC tool dependencies (grpc-labview.zip) from the git repository (link) and extract the zip file for server and client project creation.
-![alt text](<gRPC Dependencies.png>)
+![alt text](images/<gRPC Dependencies.png>)
 3.	Launch VI Package Manager, and click on the downloaded files shown below, install in the order given below.
     a. ni_lib_labview_grpc_servicer-1.0.0.1.vip	
     b. ni_lib_labview_grpc_library-1.0.0.1.vip
