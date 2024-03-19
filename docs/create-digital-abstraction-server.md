@@ -18,8 +18,8 @@ gRPC is a high performance, open-source RPC framework initially developed by Goo
     c. ni_lib_grpc_server_and_client_template[2] -1.0.0.1.vip
 4.  For digital abstraction layer, there is a predefined proto file called dcvmDigitalInterface.proto. It can be used to generate client and server code in various programming languages using gRPC tools. Let's see how we can generate server code in the LabView programming language. Click here to download the dcvmDigitalInterface.proto file.
 5.	To generate a server code, we need an existing LabVIEW project. If you don’t have an existing project, create a project and save it. Open LabVIEW->File -> Create Project -> Finish. Save the project as “dcvmDPI_server.lvproj” in any preferred location.
-![alt text](lvproj.png)
-![alt text](grpcserver.png)
+![alt text](images/lvproj.png)
+![alt text](images/grpcserver.png)
 6.	Open LabVIEW and navigate to Tools > gRPC > Open gRPC Server-Code Generator.
 A VI as shown in the image will appear.
 ![alt text](labviewgrpc.png)
