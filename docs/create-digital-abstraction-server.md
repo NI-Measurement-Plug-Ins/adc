@@ -59,29 +59,36 @@ This Library has the implementation of Driver APIs for communication with DUT in
 ![alt text](images/Get Message Queues.vi.png)
 ## Step 3: Implement DUT Interface related APIs.
 1.	Let’s take a look at the Server Implementation Library in detail in this section.
-![alt text](images/Server Implementation Library.png)
+    ![alt text](images/Server Implementation Library.png)
+    
     a.	Session.ctl: Update the instrument reference control of the required DUT interface. Bit file reference can be used if a Digital Pattern instrument is used and ignored otherwise.
     ![alt text](images/Session.ctl.png)
+    
     b.	Process VI:  In Process.vi, the implementation of interface configurations (using Driver APIs) needs to be done right from initializing the instrument communication to configure the settings to initiate & fetch the measurement to closing the communication. 
 
     You could get started with the example Digital Server project and libraries and update the required driver APIs specific to your DUT to configure the required settings. Refer the steps below which explain each of the cases in Process.vi to understand the changes required.
 
-        i.	ID:  In this case, DUT name is passed as ID_response through the gRPC message queue to Start Sync.vi.  Update the new DUT name here instead of ‘AD7606B’.
-        ![alt text](images/ID.png)
-        ii.	Measurement Parameters: Here, the Measurement Parameters are updated in the Configuration typedef. No need to make any changes in this case.
-        ![alt text](images/Meas Para.png)
-        iii.	Initialize: In Initialize.vi, implement the driver APIs to initialize the interface.
-        ![alt text](images/INIT.png)
-        iv.	Configure: In Configure.vi, implement the driver APIs that configures the interface, Settings. Ensure that the Data Buffer.vi is initialized with the inputs of the number of channels and samples per channel.
-        ![alt text](images/config.png)
-        v.	Initiate: In Initiate.vi, implement the driver APIs that initiate the measurement in the interface.
-        ![alt text](images/INITiate.png)
-        vi.	Acquire: In Acquire.vi, implement the driver APIs needed to acquire data from the DUT. Ensure the acquired data is written to the Data Buffer.vi.
+        a.	ID:  In this case, DUT name is passed as ID_response through the gRPC message queue to Start Sync.vi.  Update the new DUT name here instead of ‘AD7606B’.
+    ![alt text](images/ID.png)
+        b.	Measurement Parameters: Here, the Measurement Parameters are updated in the Configuration typedef. No need to make any changes in this case.
+    ![alt text](images/Meas.jpg)
+        
+        c.	Initialize: In Initialize.vi, implement the driver APIs to initialize the interface.
+    ![alt text](images/INIT.png)
+        
+        d.	Configure: In Configure.vi, implement the driver APIs that configures the interface, Settings. Ensure that the Data Buffer.vi is initialized with the inputs of the number of channels and samples per channel.
+    ![alt text](images/config.png)
+        
+        e.	Initiate: In Initiate.vi, implement the driver APIs that initiate the measurement in the interface.
+    ![alt text](images/INITiate.png)
+        
+        f.	Acquire: In Acquire.vi, implement the driver APIs needed to acquire data from the DUT. Ensure the acquired data is written to the Data Buffer.vi.
 
         Please note that the data buffer expects data in 2D Numeric array (Uint32) format. Ensure to convert the data into the mentioned format in case if it’s in 1D array or any other format.
-        ![alt text](images/acquire.png)
-        vii.	Close:  In Close.vi, implement the driver APIs that closes the interface communication. Ensure data buffer is reset in the Close case.
-        ![alt text](images/close.png)
+    ![alt text](images/acquire.png)
+        
+        g.	Close:  In Close.vi, implement the driver APIs that closes the interface communication. Ensure data buffer is reset in the Close case.
+    ![alt text](images/close.png)
 ## Step 4:  dcvmDPI_Server Library:
 You could reuse the Server Library, Message Queues, Utility and Data buffer for server creation. Implement the digital interface only in dcvmDPI_<DUT_Name>_serverImpl” library. If you would like to explore and understand the implementation, you can follow the below modules.
 1.	Start Sync VI: The Start Sync.vi comes along with the gRPC server and it communicates with Client API and Process.vi.
@@ -99,8 +106,7 @@ You could reuse the Server Library, Message Queues, Utility and Data buffer for 
 
 
     b.	In the Run Service VI, make sure to call the ‘Create Message Queues.vi’ first to initialize the Digital Engine and gRPC Engine queues, that will be needed communication between the Process.vi and Start Sync.vi.
-
-    ![alt text](images/Run Service vi.png)
+    ![alt text](images/Run service vi.jpg)
 
 ## Step 5: Include dependencies
 Make sure to add any other files that will be required to make the Digital server run with the DUT interface.
