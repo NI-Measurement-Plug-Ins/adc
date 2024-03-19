@@ -22,8 +22,8 @@ gRPC is a high performance, open-source RPC framework initially developed by Goo
 ![alt text](images/grpcserver.png)
 6.	Open LabVIEW and navigate to Tools > gRPC > Open gRPC Server-Code Generator.
 A VI as shown in the image will appear.
-![alt text](labviewgrpc.png)
-![alt text](<gRPC Server-Client Code Generator.png>)
+![alt text](images/labviewgrpc.png)
+![alt text](imges/gRPC Server-Client Code Generator.png)
 7.	Using this gRPC Server-Client Generator, you can create server and client code libraries in LabVIEW.
 
 Please configure the inputs as explained below:
@@ -33,15 +33,15 @@ b.	Target Project: Select the saved dcvmDPI_server.lvproj or any saved project.
 c.	Generated Library Name: Give a name for the digital server you want to create name it as dcvmDPI_<DUT_Name> for better understanding.
 d.	Generate: Select gRPC Server for server code creation.
 e.	Run the VI. (this process might take some time to create the server library in the project).
-![alt text](<gRPC Template Creation Utility.png>)
+![alt text](images/gRPC Template Creation Utility.png)
 8.	LabVIEW tools will handle the creation of libraries, controls, and VIs using the proto file, resulting in the creation of digital server library in the lvproj as shown below.
-![alt text](<Server Library creation.png>)
+![alt text](images/Server Library creation.png)
 9.	This dcvmDPI server library is used to communicate with the client APIs (which is part of Measurement Plugins) using gRPC framework. This library holds the responsibility of acquiring the request data from the client and passing the response data to the client whenever client calls happen.
-![alt text](<dcvmDPI_Server Library.png>)
+![alt text](images/dcvmDPI_Server Library.png)
 10.	To implement the DUT Interface with the digital instrument, create a separate library which call Server Implementation library. You could name it as dcvmDPI_<DUT_Name>_serverImpl.lvlib.
 
 This Library has the implementation of Driver APIs for communication with DUT interface in Process.vi with including controls and subVIs as shown below. We will discuss in detail about the Implementation in Step 3
-![alt text](<dcvmDPI_ServerImpl Library.png>)
+![alt text](images/dcvmDPI_ServerImpl Library.png)
 ## Step 2: Add Message Queues for Synchronization
 1.	Communication from Measurement plugin (gRPC client) to the DUT Interface through the Digital Server (gRPC server) happens as explained below.
 
@@ -50,37 +50,38 @@ This Library has the implementation of Driver APIs for communication with DUT in
     c.	The communication between ‘Process.vi’ and ‘Start Sync.vi’ happens through two message queues.
         i.	gRPC queue: Used for communication from Process.vi to Start Sync.vi
         ii.	Digital queue: Used for communication from Start Sync.vi to Process.vi
-    ![alt text](<Communication from Plugin to DUT through gRPC Digital Abstraction Layer.png>)
-2.	The two queues are implemented using a data cluster of ‘Message’ and ‘Message Data’. The ‘Message’ specifies the command or the action to be performed, whereas the ‘Message Data’ specifies the data associated with the command. ![alt text](<Message Queues and Queue Data Format.png>)
+    ![alt text](images/Communication from Plugin to DUT through gRPC Digital Abstraction Layer.png)
+2.	The two queues are implemented using a data cluster of ‘Message’ and ‘Message Data’. The ‘Message’ specifies the command or the action to be performed, whereas the ‘Message Data’ specifies the data associated with the command. 
+![alt text](images/Message Queues and Queue Data Format.png)
 3.	APIs for creating & destroying message queues, getting message queues in other libraries are implemented in ‘dcvmMessageQueue.lvlib’. This library can be used as such.
-![alt text](<Message Queue Library.png>)
+![alt text](images/Message Queue Library.png)
 4.	The ‘Get message queues.vi’ can be used in other VIs to get the message queue references. i.e., Digital engine and gRPC engine.
-![alt text](<Get Message Queues.vi.png>)
+![alt text](images/Get Message Queues.vi.png)
 ## Step 3: Implement DUT Interface related APIs.
 1.	Let’s take a look at the Server Implementation Library in detail in this section.
-![alt text](<Server Implementation Library.png>)
+![alt text](images/Server Implementation Library.png)
     a.	Session.ctl: Update the instrument reference control of the required DUT interface. Bit file reference can be used if a Digital Pattern instrument is used and ignored otherwise.
-    ![alt text](Session.ctl.png)
+    ![alt text](images/Session.ctl.png)
     b.	Process VI:  In Process.vi, the implementation of interface configurations (using Driver APIs) needs to be done right from initializing the instrument communication to configure the settings to initiate & fetch the measurement to closing the communication. 
 
     You could get started with the example Digital Server project and libraries and update the required driver APIs specific to your DUT to configure the required settings. Refer the steps below which explain each of the cases in Process.vi to understand the changes required.
 
         i.	ID:  In this case, DUT name is passed as ID_response through the gRPC message queue to Start Sync.vi.  Update the new DUT name here instead of ‘AD7606B’.
-        ![alt text](ID.png)
+        ![alt text](images/ID.png)
         ii.	Measurement Parameters: Here, the Measurement Parameters are updated in the Configuration typedef. No need to make any changes in this case.
-        ![alt text](<Meas Para.png>)
+        ![alt text](images/Meas Para.png)
         iii.	Initialize: In Initialize.vi, implement the driver APIs to initialize the interface.
-        ![alt text](INIT.png)
+        ![alt text](images/INIT.png)
         iv.	Configure: In Configure.vi, implement the driver APIs that configures the interface, Settings. Ensure that the Data Buffer.vi is initialized with the inputs of the number of channels and samples per channel.
-        ![alt text](config.png)
+        ![alt text](images/config.png)
         v.	Initiate: In Initiate.vi, implement the driver APIs that initiate the measurement in the interface.
-        ![alt text](INITiate.png)
+        ![alt text](images/INITiate.png)
         vi.	Acquire: In Acquire.vi, implement the driver APIs needed to acquire data from the DUT. Ensure the acquired data is written to the Data Buffer.vi.
 
         Please note that the data buffer expects data in 2D Numeric array (Uint32) format. Ensure to convert the data into the mentioned format in case if it’s in 1D array or any other format.
-        ![alt text](acquire.png)
+        ![alt text](images/acquire.png)
         vii.	Close:  In Close.vi, implement the driver APIs that closes the interface communication. Ensure data buffer is reset in the Close case.
-        ![alt text](close.png)
+        ![alt text](images/close.png)
 ## Step 4:  dcvmDPI_Server Library:
 You could reuse the Server Library, Message Queues, Utility and Data buffer for server creation. Implement the digital interface only in dcvmDPI_<DUT_Name>_serverImpl” library. If you would like to explore and understand the implementation, you can follow the below modules.
 1.	Start Sync VI: The Start Sync.vi comes along with the gRPC server and it communicates with Client API and Process.vi.
@@ -88,27 +89,27 @@ You could reuse the Server Library, Message Queues, Utility and Data buffer for 
     When we get a request from client API, user event is captured in the Start Sync.vi. In turn, it enqueues the corresponding commands in the ‘Digital engine’ queue (to be processed by Process.vi) and waits for the response in ‘gRPC engine’ queue.
 
     Start Sync.vi can be used from the example server project as such.
-    ![alt text](startSync.png)
+    ![alt text](images/startSync.png)
 2.	Run Service VI: 
     a.	When you run the Run Service.vi, it starts the gRPC server that hosts and runs the defined gRPC service. The gRPC server is responsible for handling incoming RPC (Remote Procedure Call) requests from clients, invoking the appropriate service methods, and returning the corresponding responses.
 
     In Run Service Block diagram, replace the library class with dcvm_DPI class to run the service to host the server.
-    ![alt text](runservice.png)
+    ![alt text](images/runservice.png)
     b.	In the Run Service VI, make sure to call the ‘Create Message Queues.vi’ first to initialize the Digital Engine and gRPC Engine queues, that will be needed communication between the Process.vi and Start Sync.vi.
-    ![alt text](<Run Service vi.png>)
+    ![alt text](images/Run Service vi.png)
 ## Step 5: Include dependencies
 Make sure to add any other files that will be required to make the Digital server run with the DUT interface.
 For example, in the given example Server project, bit file, pin map file, pattern file, etc. are required to interface DUT with Digital interface. 
 
 ## Step 6: Build and Run Digital Server
 1.	Running the Digital server VI: In server project, open the Run Service.vi and run the service that hosts and runs the defined gRPC service. 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 2.	Building.exe:
     i.	For creating the .exe for the server project, 
-    ![alt text](<Digital Server Build Specs.png>)
+    ![alt text](images/Digital Server Build Specs.png)
     ii.	Once the build is complete, go to the location where EXE is present
-    ![alt text](<Digital Server Location.png>)
+    ![alt text](images/Digital Server Location.png)
     iii.	Run the digital server exe file ‘AD706B_DPIserver.exe’
-    ![alt text](image-5-1.png)
+    ![alt text](images/image-5-1.png)
 ## Step 7: Connect the DCVM plugin to the server and perform measurements
  You can follow the steps to run the adc-dcvm measurements by refering this document.
