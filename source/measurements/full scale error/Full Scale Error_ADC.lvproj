@@ -378,40 +378,40 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/Full Scale Error</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Full Scale Error_ADC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87DDD5BC-817E-4384-B6B0-A0E067670D27}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Full Scale Error_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/Full Scale Error/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/Full Scale Error_ADC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/Full Scale Error/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">FPGA Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/adc/builds/Full Scale Error/data/shared/FPGABitFiles</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/shared/FPGABitFiles</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">Levels Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/adc/builds/Full Scale Error/data/dutSpecific/AD7606B/Levels</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/dutSpecific/AD7606B/Levels</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[4].destName" Type="Str">Patterns Directory</Property>
-				<Property Name="Destination[4].path" Type="Path">/C/adc/builds/Full Scale Error/data/dutSpecific/AD7606B/Patterns</Property>
+				<Property Name="Destination[4].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/dutSpecific/AD7606B/Patterns</Property>
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[5].destName" Type="Str">PinMap</Property>
-				<Property Name="Destination[5].path" Type="Path">/C/adc/builds/Full Scale Error/data/dutSpecific/AD7606B/PinMap</Property>
+				<Property Name="Destination[5].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/dutSpecific/AD7606B/PinMap</Property>
 				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[6].destName" Type="Str">Specifications Directory</Property>
-				<Property Name="Destination[6].path" Type="Path">/C/adc/builds/Full Scale Error/data/dutSpecific/AD7606B/Specifications</Property>
+				<Property Name="Destination[6].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/dutSpecific/AD7606B/Specifications</Property>
 				<Property Name="Destination[6].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[7].destName" Type="Str">Timing Directory</Property>
-				<Property Name="Destination[7].path" Type="Path">/C/adc/builds/Full Scale Error/data/dutSpecific/AD7606B/Timing</Property>
+				<Property Name="Destination[7].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data/dutSpecific/AD7606B/Timing</Property>
 				<Property Name="Destination[7].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9DC984A7-EB1A-468D-A783-5DA98B65B6DB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B722564-D98D-4954-959F-F850D755A7D5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Full Scale Error_ADC.lvlib/Get Measurement Details.vi</Property>

@@ -372,22 +372,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/Gain And Offset</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Gain And Offset_ADC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{259BA380-3D15-47DA-883B-08231456A8EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Gain And Offset_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/Gain And Offset/ADC - Gain And Offset Measurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/ADC - Gain And Offset Measurement.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/Gain And Offset/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5C0056CA-FE35-4C30-99E6-FF9870D6C249}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{61AC3DFD-DBC9-45C2-B92D-0873E9CBD90E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Gain And Offset_ADC.lvlib/Run Service.vi</Property>

@@ -360,22 +360,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Linearity_ADC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/Linearity</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Linearity_ADC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F86E4738-7F63-4AFE-8E69-E7AC17B5786A}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Linearity_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/Linearity/ADC - Linearity Measurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/ADC - Linearity Measurement.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/Linearity/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49DD72EE-70CD-4249-929A-B459A404DC1A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{01F9E0DB-0521-420A-9255-2AECA401B870}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Linearity_ADC.lvlib/Get Measurement Details.vi</Property>

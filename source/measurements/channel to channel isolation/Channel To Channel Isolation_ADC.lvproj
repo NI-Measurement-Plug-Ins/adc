@@ -468,22 +468,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Channel To Channel Isolation_ADC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/Channel To Channel Isolation</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Channel To Channel Isolation_ADC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Channel To Channel Isolation_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/Channel To Channel Isolation/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/Channel To Channel Isolation_ADC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/Channel To Channel Isolation/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43179E9F-12F0-4EBF-8C5C-50A6308F473F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3E557C1B-EE74-4DC6-BFD1-B5F22B4DDD4C}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
