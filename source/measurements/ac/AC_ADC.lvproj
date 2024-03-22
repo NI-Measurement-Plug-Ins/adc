@@ -473,143 +473,92 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AC_ADC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{56823E70-0B4E-44AD-8700-23903B3E5961}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B74E34A8-46BF-4B61-9F29-AD29CD2F551B}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1914B581-057D-4C5E-B690-939489208AB8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E8C87215-15A0-43FA-A18E-C063075C7527}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{3CA74630-3762-4531-B7C8-5216BAD6EA49}</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C79D22FC-6597-4472-9D0F-30445600570C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">AC_ADC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/AC</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/AC_ADC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{D8D2D2C8-A205-42F2-8AD3-FD8C7E421294}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F197D54F-6B1F-4872-A704-9358DB4B4412}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AC_ADC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/AC/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/AC_ADC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/AC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/adc/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF7D3811-0B82-4614-8A66-CCDFBBDDC8AC}</Property>
-				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49617262-B2A2-4DB4-BDDB-203B89CF6E67}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get Measurement Details.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Run Service.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/subVIs</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_client.lvlib</Property>
-				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/dpiInterface/utility</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">Library</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib</Property>
-				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Library</Property>
-				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/dpiInterface/utility</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_client.lvlib/RPC Messages</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_client.lvlib/RPC Service</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_client.lvlib/Client API</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Acquire.vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Close.vi</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Configure.vi</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Initialize.vi</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Initiate.vi</Property>
-				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_clientImpl.lvlib/Query ID.vi</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Run Service.vi</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[8].properties[0].value" Type="Str">Minimized</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/AC_ADC.lvlib/subVIs/DSG Generate Waveform.vi</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/dpiInterface/dcvmDPI_AD7606B_client.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">AC_ADC</Property>
 				<Property Name="TgtF_internalName" Type="Str">AC_ADC</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 National Instruments</Property>
 				<Property Name="TgtF_productName" Type="Str">AC_ADC</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{EBFECD24-E525-4E29-9E29-DF50CFA930CA}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0753ACAA-1EE0-468E-9E52-DE4E4BCFEAD9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">AC_ADC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
