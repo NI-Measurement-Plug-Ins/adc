@@ -24,7 +24,7 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - Sound and Vibration Toolkit support for LabVIEW (21.5 or higher)
 - LabVIEW FPGA development support (22.3 or higher)
 - MeasurementLink 2024 Q1
-- MEasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
+- MeasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI Digital driver (22.8 or higher)
 - NI DAQmx driver (22.8 or higher)
 - NI DMM driver (22.8 or higher)
