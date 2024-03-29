@@ -74,7 +74,6 @@ After following above steps to add measurement service into the Instrument Studi
 ![alt text](images/TestStand6.png)
 ## Measurements
 ### AC
-### AC MultiChannel
 ### Linearity
 ### Gain and Offset
 ### Full Scale Error
