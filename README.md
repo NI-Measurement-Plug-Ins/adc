@@ -1,6 +1,6 @@
 # ADC Measurements
 This measurement plugin makes the measurements for the ADC's. This measurement plugin was developed in 2021 SP1 LabView. This test generates an Analog signal and then acquires the digital waveform and measures it.   
-![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC%20Measurement.png)
+![AC](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC.PNG)
 
 ## Key Features
 - Measurements
@@ -17,7 +17,7 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - AD7606B evaluation board
 - SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
-  ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/res/AC%20Test%20Setup.PNG)
+  ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC%20Measurement%20Setup.PNG)
 
 ## Software dependencies:
 - LabVIEW 64-bit 2021.0 SP1
