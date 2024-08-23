@@ -1,6 +1,14 @@
 # ADC Measurements
 This measurement plugin makes the measurements for the ADC's. This measurement plugin was developed in 2021 SP1 LabView. This test generates an Analog signal and then acquires the digital waveform and measures it.   
+
+
+**AC Measurement**
+
 ![AC](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC.PNG)
+
+**Gain and Offset Measurement**
+
+![Gain and Offset](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/Gain%20and%20offset.PNG)
 
 ## Key Features
 - Measurements
@@ -14,10 +22,13 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - NI 446x
 - NI 657x
 - NI 4139
+- NI 4081
 - AD7606B evaluation board
 - SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
-
+### AC and Linearity measurement hardware setup
   ![image](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/AC%20Measurement%20Setup.PNG)
+  ### Gain and Offset and Full scale error measurement hardware setup
+  ![Gain and Offset](https://github.com/NI-MeasurementLink-Plug-Ins/adc/blob/main/docs/images/Gain%20and%20Offset%20Test%20Setup.png)
 
 ## Software dependencies:
 - LabVIEW 64-bit 2021.0 SP1
@@ -27,7 +38,7 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - MeasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI Digital driver (22.8 or higher)
 - NI DAQmx driver (22.8 or higher)
-- NI DMM driver (22.8 or higher)
+- NI DMM driver (22.8 or higher) (Required for Gain and Offset and Full Scale Error measurements)
 
 
 
