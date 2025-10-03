@@ -831,673 +831,673 @@
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i115" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc</DestinationRelativePath>
-                    <Name>adc</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC</DestinationRelativePath>
+                    <Name>ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i116" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC</DestinationRelativePath>
                     <Name>AC_ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i117" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\AC_ADC.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\AC_ADC.aliases</DestinationRelativePath>
                     <Name>AC_ADC.aliases</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i118" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\AC_ADC.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\AC_ADC.exe</DestinationRelativePath>
                     <Name>AC_ADC.exe</Name>
                     <SourceItem z:Ref="i3" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i119" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\AC_ADC.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\AC_ADC.ini</DestinationRelativePath>
                     <Name>AC_ADC.ini</Name>
                     <SourceItem z:Ref="i4" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i120" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\AC_ADC.lvlib</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\AC_ADC.lvlib</DestinationRelativePath>
                     <Name>AC_ADC.lvlib</Name>
                     <SourceItem z:Ref="i5" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i121" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\AC_ADC.serviceconfig</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\AC_ADC.serviceconfig</DestinationRelativePath>
                     <Name>AC_ADC.serviceconfig</Name>
                     <SourceItem z:Ref="i6" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i122" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Measurement UI.vi</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i11" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i123" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i124" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Linux</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i125" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i7" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i126" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i127" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i8" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i128" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i129" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i9" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i130" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i131" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\AC_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\AC_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i10" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i132" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i133" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.aliases</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC.aliases</Name>
                     <SourceItem z:Ref="i12" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i134" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.exe</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC.exe</Name>
                     <SourceItem z:Ref="i13" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i135" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.ini</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC.ini</Name>
                     <SourceItem z:Ref="i14" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i136" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.lvlib</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.lvlib</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC.lvlib</Name>
                     <SourceItem z:Ref="i15" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i137" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.serviceconfig</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Channel To Channel Isolation_ADC.serviceconfig</DestinationRelativePath>
                     <Name>Channel To Channel Isolation_ADC.serviceconfig</Name>
                     <SourceItem z:Ref="i16" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i138" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Measurement UI.vi</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i21" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i139" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i140" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Linux</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i141" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i17" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i142" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i143" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i18" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i144" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i145" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i19" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i146" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i147" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Channel To Channel Isolation_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Channel To Channel Isolation_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i20" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server</DestinationRelativePath>
                     <Name>Digital Server</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i149" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\AD7606B_DPIserver.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\AD7606B_DPIserver.aliases</DestinationRelativePath>
                     <Name>AD7606B_DPIserver.aliases</Name>
                     <SourceItem z:Ref="i22" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i150" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\AD7606B_DPIserver.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\AD7606B_DPIserver.exe</DestinationRelativePath>
                     <Name>AD7606B_DPIserver.exe</Name>
                     <SourceItem z:Ref="i23" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i151" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\AD7606B_DPIserver.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\AD7606B_DPIserver.ini</DestinationRelativePath>
                     <Name>AD7606B_DPIserver.ini</Name>
                     <SourceItem z:Ref="i24" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i152" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data</DestinationRelativePath>
                     <Name>data</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i153" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific</DestinationRelativePath>
                     <Name>dutSpecific</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i154" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B</DestinationRelativePath>
                     <Name>AD7606B</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i155" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Levels</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Levels</DestinationRelativePath>
                     <Name>Levels</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i156" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Levels\PinLevels.digilevels</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Levels\PinLevels.digilevels</DestinationRelativePath>
                     <Name>PinLevels.digilevels</Name>
                     <SourceItem z:Ref="i25" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i157" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Patterns</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Patterns</DestinationRelativePath>
                     <Name>Patterns</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i158" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Patterns\PAR_Read_After_Busy_ExtClk_Trigger_2.digipat</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Patterns\PAR_Read_After_Busy_ExtClk_Trigger_2.digipat</DestinationRelativePath>
                     <Name>PAR_Read_After_Busy_ExtClk_Trigger_2.digipat</Name>
                     <SourceItem z:Ref="i26" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i159" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\PinMap</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\PinMap</DestinationRelativePath>
                     <Name>PinMap</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i160" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\PinMap\PinMap.pinmap</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\PinMap\PinMap.pinmap</DestinationRelativePath>
                     <Name>PinMap.pinmap</Name>
                     <SourceItem z:Ref="i27" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i161" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Specifications</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Specifications</DestinationRelativePath>
                     <Name>Specifications</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i162" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Specifications\ADCClock.specs</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Specifications\ADCClock.specs</DestinationRelativePath>
                     <Name>ADCClock.specs</Name>
                     <SourceItem z:Ref="i28" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i163" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Specifications\Electrical.specs</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Specifications\Electrical.specs</DestinationRelativePath>
                     <Name>Electrical.specs</Name>
                     <SourceItem z:Ref="i29" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i164" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Specifications\SPI.specs</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Specifications\SPI.specs</DestinationRelativePath>
                     <Name>SPI.specs</Name>
                     <SourceItem z:Ref="i30" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i165" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Timing</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Timing</DestinationRelativePath>
                     <Name>Timing</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i166" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\dutSpecific\AD7606B\Timing\Parallel Timing.digitiming</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\dutSpecific\AD7606B\Timing\Parallel Timing.digitiming</DestinationRelativePath>
                     <Name>Parallel Timing.digitiming</Name>
                     <SourceItem z:Ref="i31" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i167" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\shared</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\shared</DestinationRelativePath>
                     <Name>shared</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i168" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\shared\FPGABitFiles</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\shared\FPGABitFiles</DestinationRelativePath>
                     <Name>FPGABitFiles</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i169" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\shared\FPGABitFiles\6570.lvbitx</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\shared\FPGABitFiles\6570.lvbitx</DestinationRelativePath>
                     <Name>6570.lvbitx</Name>
                     <SourceItem z:Ref="i32" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i170" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\data\shared\FPGABitFiles\6571.lvbitx</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\data\shared\FPGABitFiles\6571.lvbitx</DestinationRelativePath>
                     <Name>6571.lvbitx</Name>
                     <SourceItem z:Ref="i33" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i171" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i172" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i173" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i34" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i174" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i175" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Digital Server\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Digital Server\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i35" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i176" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC</DestinationRelativePath>
                     <Name>Full Scale Error_ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i177" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Full Scale Error_ADC.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Full Scale Error_ADC.aliases</DestinationRelativePath>
                     <Name>Full Scale Error_ADC.aliases</Name>
                     <SourceItem z:Ref="i36" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i178" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Full Scale Error_ADC.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Full Scale Error_ADC.exe</DestinationRelativePath>
                     <Name>Full Scale Error_ADC.exe</Name>
                     <SourceItem z:Ref="i37" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i179" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Full Scale Error_ADC.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Full Scale Error_ADC.ini</DestinationRelativePath>
                     <Name>Full Scale Error_ADC.ini</Name>
                     <SourceItem z:Ref="i38" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i180" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Full Scale Error_ADC.lvlib</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Full Scale Error_ADC.lvlib</DestinationRelativePath>
                     <Name>Full Scale Error_ADC.lvlib</Name>
                     <SourceItem z:Ref="i39" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i181" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Full Scale Error_ADC.serviceconfig</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Full Scale Error_ADC.serviceconfig</DestinationRelativePath>
                     <Name>Full Scale Error_ADC.serviceconfig</Name>
                     <SourceItem z:Ref="i40" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i182" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Measurement UI.vi</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i45" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i183" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i184" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Linux</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i185" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i41" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i186" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i187" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i42" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i188" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i189" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i43" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i190" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i191" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Full Scale Error_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Full Scale Error_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i44" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i192" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC</DestinationRelativePath>
                     <Name>Gain And Offset_ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i193" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Gain And Offset_ADC.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Gain And Offset_ADC.aliases</DestinationRelativePath>
                     <Name>Gain And Offset_ADC.aliases</Name>
                     <SourceItem z:Ref="i46" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i194" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Gain And Offset_ADC.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Gain And Offset_ADC.exe</DestinationRelativePath>
                     <Name>Gain And Offset_ADC.exe</Name>
                     <SourceItem z:Ref="i47" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i195" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Gain And Offset_ADC.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Gain And Offset_ADC.ini</DestinationRelativePath>
                     <Name>Gain And Offset_ADC.ini</Name>
                     <SourceItem z:Ref="i48" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i196" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Gain And Offset_ADC.lvlib</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Gain And Offset_ADC.lvlib</DestinationRelativePath>
                     <Name>Gain And Offset_ADC.lvlib</Name>
                     <SourceItem z:Ref="i49" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i197" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Gain And Offset_ADC.serviceconfig</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Gain And Offset_ADC.serviceconfig</DestinationRelativePath>
                     <Name>Gain And Offset_ADC.serviceconfig</Name>
                     <SourceItem z:Ref="i50" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i198" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Measurement UI.vi</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i55" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i199" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i200" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Linux</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i201" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i51" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i202" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i203" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i52" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i204" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i205" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i53" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i206" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i207" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Gain And Offset_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Gain And Offset_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i54" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i208" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC</DestinationRelativePath>
                     <Name>Linearity_ADC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i209" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Linearity_ADC.aliases</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Linearity_ADC.aliases</DestinationRelativePath>
                     <Name>Linearity_ADC.aliases</Name>
                     <SourceItem z:Ref="i60" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i210" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Linearity_ADC.exe</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Linearity_ADC.exe</DestinationRelativePath>
                     <Name>Linearity_ADC.exe</Name>
                     <SourceItem z:Ref="i61" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i211" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Linearity_ADC.ini</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Linearity_ADC.ini</DestinationRelativePath>
                     <Name>Linearity_ADC.ini</Name>
                     <SourceItem z:Ref="i62" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i212" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Linearity_ADC.lvlib</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Linearity_ADC.lvlib</DestinationRelativePath>
                     <Name>Linearity_ADC.lvlib</Name>
                     <SourceItem z:Ref="i63" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i213" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Linearity_ADC.serviceconfig</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Linearity_ADC.serviceconfig</DestinationRelativePath>
                     <Name>Linearity_ADC.serviceconfig</Name>
                     <SourceItem z:Ref="i64" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i214" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Measurement UI.vi</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i65" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i215" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i216" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Linux</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i217" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i56" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i218" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i219" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i57" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i220" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Win32</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i221" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i58" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i222" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Win64</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i223" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\adc\Linearity_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\ADC\Linearity_ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i59" />
                     <PluginConfigurationOptions />
@@ -1506,47 +1506,30 @@
             </DistributionItems>
             <Name>adc-measurements</Name>
             <OutputDirectory>Packages</OutputDirectory>
-            <PluginConfigurationOptions>
-                <ConfigurationOption z:Id="i224">
-                    <Definition z:Id="i225">
-                        <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
-                        <Name>Publish examples to LabVIEW NXG</Name>
-                    </Definition>
-                    <HasDefaultValues>true</HasDefaultValues>
-                    <Value z:Id="i226" i:type="DialogConfigurationOptionValue">
-                        <Values>
-                            <ConfigurationOptionValue z:Id="i227" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
-                                <d8p1:Value z:Id="i228" i:type="d8p1:LauncherRoot">
-                                    <d8p1:Children />
-                                </d8p1:Value>
-                            </ConfigurationOptionValue>
-                        </Values>
-                    </Value>
-                </ConfigurationOption>
-            </PluginConfigurationOptions>
+            <PluginConfigurationOptions />
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i229">
+            <BuildStatus z:Id="i224">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-adc-measurements_1.0.0.4_windows_x64.nipkg</FileName>
-                <Version>1.0.0.4</Version>
+                <FileName>community-adc-measurements_1.0.0.5_windows_x64.nipkg</FileName>
+                <Version>1.0.0.5</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>adc-measurements</DisplayName>
-            <FileName>community-adc-measurements_1.0.0.5_windows_x64.nipkg</FileName>
+            <FileName>community-adc-measurements_1.0.0.6_windows_x64.nipkg</FileName>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>MyCompany</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>community-adc-measurements</PackageName>
             <PackageRelationships>
-                <PackageRelationship z:Id="i230">
+                <PackageRelationship z:Id="i225">
                     <Constraint>LaterOrEqual</Constraint>
                     <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
                     <PackageName>ni-labview-2021-runtime-engine</PackageName>
                     <Relation>Depends</Relation>
-                    <Version>21.1.2.49154-0+f2</Version>
+                    <Version>21.1.6.49156-0+f4</Version>
                     <VersionType>AutoUpdate</VersionType>
                 </PackageRelationship>
             </PackageRelationships>
@@ -1554,12 +1537,12 @@
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-adc-measurements</Synopsis>
-            <Version>1.0.0.5</Version>
+            <Version>1.0.0.6</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i231">
+        <DistributionGroup z:Id="i226">
             <Distributions>
                 <Distribution z:Ref="i111" />
             </Distributions>
