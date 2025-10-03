@@ -34,8 +34,8 @@ This measurement plugin makes the measurements for the ADC's. This measurement p
 - LabVIEW 64-bit 2021.0 SP1
 - Sound and Vibration Toolkit support for LabVIEW (21.5 or higher)
 - LabVIEW FPGA development support (22.3 or higher)
-- MeasurementLink 2024 Q1
-- MeasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
+- InstrumentStudio 2025 Q2
+- Measurement Plug-In Dependencies (https://github.com/ni/measurement-plugin-labview/releases/tag/v3.0.0.3)
 - NI Digital driver (22.8 or higher)
 - NI DAQmx driver (22.8 or higher)
 - NI DMM driver (22.8 or higher) (Required for Gain and Offset and Full Scale Error measurements)
