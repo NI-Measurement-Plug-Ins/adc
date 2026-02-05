@@ -28,7 +28,7 @@ Turn on the Output for each SMU.
 
 AC Measurement Software Workflow
 
-Go to the C:\ProgramData\National Instruments\MeasurementLink\Services\Digital Server. Click on AD7606B_DPIserver.exe before running the measurement service.
+Go to the C:\ProgramData\National Instruments\Plug-Ins\Measurements\ADC\Digital Server. Click on AD7606B_DPIserver.exe before running the measurement service.
 
 ![alt text](images/image-5.png)
 
